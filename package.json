@@ -1,0 +1,30 @@
+{
+  "name": "qapio-node-consumer-lib",
+  "version": "1.0.0",
+  "description": "Node.js library to build services that interact with Qapio.",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdip/qapio-node-consumer-lib.git"
+  },
+  "author": "Turning Data Into Products A.S. <hello@quantifio.no>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/tdip/qapio-node-consumer-lib/issues"
+  },
+  "homepage": "https://github.com/tdip/qapio-node-consumer-lib#readme",
+  "devDependencies": {
+    "@types/msgpack": "^0.0.30",
+    "@types/node": "^12.12.14",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "msgpack": "^1.0.3"
+  }
+}
