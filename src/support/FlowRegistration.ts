@@ -1,4 +1,4 @@
-import { FlowRegistrationArgs } from "./FlowRegistrationArgs"
+import { FlowRegistrationArgs } from "../types/FlowRegistrationArgs"
 
 export type FlowRegistration = {
     flow: Function,

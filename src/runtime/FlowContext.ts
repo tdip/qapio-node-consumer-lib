@@ -15,7 +15,7 @@ export class FlowContext implements IFlowContext {
     static async useFlowContext(message: any, handler: (ctx: IFlowContext) => Promise<void>): Promise<void>{
 
         const context = new FlowContext(
-            message.inputStreams.map(createReadStream),
+            message.inputStreams.map((file: any) => createReadStream(file)),
             createWriteStream(message.outputStream));
 
         try{
